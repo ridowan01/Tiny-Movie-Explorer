@@ -1,16 +1,16 @@
-import { createBrowserRouter } from "react-router";
+import { createHashRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
 import Layout from "./layout";
 import Home from "../Pages/home";
 import Movies from "../Pages/movies";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
     {
         path: "/",
         Component: Layout,
         children: [
-            {index: true, Component: Home},
-            {path: "movies", Component: Movies},
+            { index: true, Component: Home },
+            { path: "movies", Component: Movies },
         ]
     },
 ]);

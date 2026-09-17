@@ -2,6 +2,8 @@
 
 A sleek, modern, and fully responsive web application built with **React**, **React Router**, and **Tailwind CSS**. It allows users to explore trending shows, search through a vast database via the **TVMaze API**, and view rich details in an immersive modal overlay.
 
+**Live Link**: https://ridowan01.github.io/Tiny-Movie-Explorer/
+
 ---
 
 ## ✨ Features
